@@ -10,7 +10,7 @@
         /// <returns></returns>
         public int Add(int x, int y)
         {
-            return x + y*9;
+            return x + y;
         }
         /// <summary>
         /// Phép tính trừ

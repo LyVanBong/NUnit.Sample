@@ -1,4 +1,4 @@
-﻿using System;
+
 using NUnit.Framework;
 using NUnit.Sample;
 
@@ -31,6 +31,11 @@ namespace UnitTest.Sample
         public void FourPlusOneEqualFive()
         {
             Assert.AreEqual(5, _cal.Add(4, 1));
+        }
+        [Test]
+        public void Test1()
+        {
+            Assert.AreEqual(1, _cal.Subtract(10, 9));
         }
     }
 }
